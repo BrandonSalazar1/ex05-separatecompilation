@@ -1,10 +1,10 @@
 # Minimum version can be no higher than 3.5 as Ubuntu package management uses this version.
 cmake_minimum_required(VERSION 3.5)
 
-project (EX01-HelloWorld)
+project (EX05-SeparateCompilation)
 
-set(SOURCE_PREFIX "helloworld")
-set(EXEC_NAME "HelloWorld")
+set(SOURCE_PREFIX "separatecompilation")
+set(EXEC_NAME "SeparateCompilation")
 set(CMAKE_CXX_STANDARD 11)
 
 if(EXISTS ${CMAKE_HOME_DIRECTORY}/csv13-lib/CMakeLists.txt)
